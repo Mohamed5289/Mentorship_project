@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYIV2u7IdtkezNVjn32h1BwAAAAACAAAAAAAQZgAAAAEAACAAAAAZCQ5g+7tMNBOajLUWUEE4datWH2bYQE0v23tE61j3YgAAAAAOgAAAAAIAACAAAAD/hZakMqJ6AKKKSiljnTrAhgxkm9xTg3u62zGIVU6vRyAAAAB27YvR5NS6p8nU/vUNqlxCFf0S4/MHijUMrE/iH9qEw0AAAAAp8dNpHB9pOvzRrolN0tq4d96UaFJ0rLAqp2J+s5hKTObqvjTe3kCYElfqha8Bugn0957FOjC64dDJnE0+kyaE</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="MentorshipHub.Api.Data.AppIdentityDbContext">
+      <Value>workstation id=MentorshipHub.mssql.somee.com%3bpacket size=4096%3buser id=Mo_Ragab_SQLLogin_1%3bpwd=p3eufsnys5%3bdata source=MentorshipHub.mssql.somee.com%3bpersist security info=False%3binitial catalog=MentorshipHub%3bTrustServerCertificate=True</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYIV2u7IdtkezNVjn32h1BwAAAAACAAAAAAAQZgAAAAEAACAAAADFCt7MMI0BUJ8Zfn6mEnPXj1b0zAX/GmFTbK5QarkeowAAAAAOgAAAAAIAACAAAAB5cT223umpace1oUhZ1ER8inR3cyLzHR6L60pdkTo9+yAAAAC2FEeTlqER33nWfAnBkhUbAFwDxIzRyNx3h/FifsGcR0AAAABE3KF3r/GvWOMpop/CNNm05BzZeKjwMA4ifJbFjm77un4guXP6jJwaqlO/PzywGB85bOC8eazRuJ07q/Ijhd/U</EncryptedPassword>
+    <_PublishTargetUrl>ftp://Mentorships.somee.com/www.Mentorships.somee.com</_PublishTargetUrl>
+    <History>False|2025-01-29T21:29:20.9477241Z||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>01/29/2025 10:57:43</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>01/29/2025 23:19:28</publishTime>
+    </File>
+    <File Include="MentorshipHub.Api.dll">
+      <publishTime>01/29/2025 23:22:15</publishTime>
+    </File>
+    <File Include="MentorshipHub.Api.runtimeconfig.json">
+      <publishTime>01/29/2025 23:22:15</publishTime>
+    </File>
+    <File Include="MentorshipHub.Api.staticwebassets.endpoints.json">
+      <publishTime>01/29/2025 14:02:18</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Cryptography.Internal.dll">
+      <publishTime>12/04/2024 07:51:00</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

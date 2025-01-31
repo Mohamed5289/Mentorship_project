@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "+rZYUGXcPLv9+DXZtsD9a49lWhEGSF/H22FqnZ/VtPk=",
+  "Source": "MentorshipHub.Api",
+  "BasePath": "_content/MentorshipHub.Api",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

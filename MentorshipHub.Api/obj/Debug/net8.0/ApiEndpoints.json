@@ -1,0 +1,88 @@
+[
+  {
+    "ContainingType": "MentorshipHub.Api.Controllers.ImageUploadController",
+    "Method": "UploadImage",
+    "RelativePath": "api/ImageUpload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MentorshipHub.Api.ConfigurationToFile.UploadDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "UploadImage"
+  },
+  {
+    "ContainingType": "MentorshipHub.Api.Controllers.UploadTaskController",
+    "Method": "UploadTask",
+    "RelativePath": "api/UploadTask",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MentorshipHub.Api.ConfigurationToFile.UploadDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "UploadTask"
+  },
+  {
+    "ContainingType": "MentorshipHub.Api.Controllers.UserAuthenticationController",
+    "Method": "Login",
+    "RelativePath": "api/UserAuthentication/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "MentorshipHub.Api.DTOHelpers.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorshipHub.Api.Controllers.UserAuthenticationController",
+    "Method": "Register",
+    "RelativePath": "api/UserAuthentication/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "MentorshipHub.Api.DTOHelpers.RegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
