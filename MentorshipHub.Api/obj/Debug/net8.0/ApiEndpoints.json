@@ -1,32 +1,5 @@
 [
   {
-    "ContainingType": "MentorshipHub.Api.Controllers.ImageUploadController",
-    "Method": "UploadImage",
-    "RelativePath": "api/ImageUpload",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "file",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "MentorshipHub.Api.ConfigurationToFile.UploadDto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "UploadImage"
-  },
-  {
     "ContainingType": "MentorshipHub.Api.Controllers.UploadTaskController",
     "Method": "UploadTask",
     "RelativePath": "api/UploadTask",
@@ -78,9 +51,34 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "model",
-        "Type": "MentorshipHub.Api.DTOHelpers.RegisterModel",
-        "IsRequired": true
+        "Name": "ProfilePicture",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "FirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

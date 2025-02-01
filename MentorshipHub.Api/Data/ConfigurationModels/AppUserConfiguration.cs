@@ -19,9 +19,9 @@ namespace MentorshipHub.Api.Data.ConfigurationModels
             builder.Property(x => x.DateOfBirth).IsRequired();
             builder.Property(x => x.Bio).HasMaxLength(500);
 
-            //builder.HasOne(x => x.Mentee).WithOne(x => x.AppUser).HasForeignKey<Mentee>(x => x.AppUserId);
-            //builder.HasOne(x => x.Mentor).WithOne(x => x.AppUser).HasForeignKey<Mentor>(x => x.AppUserId);
-            //builder.HasOne(x => x.Admin).WithOne(x => x.AppUser).HasForeignKey<Admin>(x => x.AppUserId);
+            builder.HasOne(x => x.Mentee).WithOne(x => x.AppUser).HasForeignKey<Mentee>(x => x.AppUserId);
+            builder.HasOne(x => x.Mentor).WithOne(x => x.AppUser).HasForeignKey<Mentor>(x => x.AppUserId);
+            builder.HasOne(x => x.Admin).WithOne(x => x.AppUser).HasForeignKey<Admin>(x => x.AppUserId);
         }
     }
 }

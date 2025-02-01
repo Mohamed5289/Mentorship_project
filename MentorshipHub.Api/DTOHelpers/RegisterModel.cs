@@ -1,10 +1,13 @@
 ﻿
+using Swashbuckle.AspNetCore.Annotations;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace MentorshipHub.Api.DTOHelpers
 {
     public class RegisterModel
     {
+        public IFormFile? ProfilePicture { get; set; }
         [Required, StringLength(30)]
         public string FirstName { get; set; } = string.Empty;
         [Required, StringLength(30)]

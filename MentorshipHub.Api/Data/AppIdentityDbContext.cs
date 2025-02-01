@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using MentorshipHub.Api.Data.ConfigurationModels;
 
 namespace MentorshipHub.Api.Data
 {
@@ -22,6 +23,8 @@ namespace MentorshipHub.Api.Data
             builder.Entity<IdentityUserLogin<string>>().ToTable("UserLogins", "security");
             builder.Entity<IdentityRoleClaim<string>>().ToTable("RoleClaims", "security");
             builder.Entity<IdentityUserToken<string>>().ToTable("UserTokens", "security");
+
+            builder.ApplyConfigurationsFromAssembly(typeof(AppUserConfiguration).Assembly);
 
         }
     }

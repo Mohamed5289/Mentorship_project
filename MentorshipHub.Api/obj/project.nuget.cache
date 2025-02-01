@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZhBJCdSvRNE=",
+  "dgSpecHash": "pSoqFdvZ13A=",
   "success": true,
-  "projectFilePath": "D:\\Codes\\Visual_Studio\\MentorshipHub.Api\\MentorshipHub.Api\\MentorshipHub.Api.csproj",
+  "projectFilePath": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\MentorshipHub.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mohamed\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Mohamed\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

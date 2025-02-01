@@ -80,7 +80,7 @@ namespace MentorshipHub.Api.Services
             }
         }
 
-        public async Task<AuthenticationModel> Registering(RegisterModel model)
+        public async Task<AuthenticationModel> Registering(RegisterModel model , string profilePicturePath)
         {
             if (model is null)
                 return new AuthenticationModel { Message = "Register model is null!" };
@@ -106,6 +106,7 @@ namespace MentorshipHub.Api.Services
                     UserName = model.Username,
                     FirstName = model.FirstName,
                     LastName = model.LastName,
+                    ProfilePicture = profilePicturePath ?? "",
                     RefreshTokens = new List<RefreshToken>()
                 };
 

@@ -25,38 +25,96 @@ namespace MentorshipHub.Api.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("MentorshipHub.Api.Models.Achievement", b =>
+                {
+                    b.Property<int>("MenteeId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Id")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MentorshipId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("AverageRating")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Feedback")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Score")
+                        .HasColumnType("int");
+
+                    b.HasKey("MenteeId", "Id", "MentorshipId");
+
+                    b.HasIndex("MentorshipId");
+
+                    b.ToTable("Achievement");
+                });
+
+            modelBuilder.Entity("MentorshipHub.Api.Models.Admin", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AppUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId")
+                        .IsUnique();
+
+                    b.ToTable("Admin");
+                });
+
             modelBuilder.Entity("MentorshipHub.Api.Models.AppUser", b =>
                 {
                     b.Property<string>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
 
                     b.Property<string>("Bio")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateOnly?>("DateOfBirth")
+                        .IsRequired()
                         .HasColumnType("date");
 
                     b.Property<string>("Email")
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
 
                     b.Property<string>("FirstName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("LastName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
@@ -73,10 +131,12 @@ namespace MentorshipHub.Api.Migrations
                         .HasColumnType("nvarchar(256)");
 
                     b.Property<string>("PasswordHash")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhoneNumber")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
 
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
@@ -91,8 +151,9 @@ namespace MentorshipHub.Api.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("UserName")
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.HasKey("Id");
 
@@ -105,6 +166,206 @@ namespace MentorshipHub.Api.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("Users", "security");
+                });
+
+            modelBuilder.Entity("MentorshipHub.Api.Models.Mentee", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AppUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId")
+                        .IsUnique();
+
+                    b.ToTable("Mentee");
+                });
+
+            modelBuilder.Entity("MentorshipHub.Api.Models.Mentor", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AppUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId")
+                        .IsUnique();
+
+                    b.ToTable("Mentor");
+                });
+
+            modelBuilder.Entity("MentorshipHub.Api.Models.Mentorship", b =>
+                {
+                    b.Property<int>("MentorshipId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MentorshipId"));
+
+                    b.Property<string>("Discription")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateOnly>("EndDate")
+                        .HasColumnType("date");
+
+                    b.Property<int>("Hours")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MentorId")
+                        .HasColumnType("int");
+
+                    b.Property<DateOnly>("StartDate")
+                        .HasColumnType("date");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("MentorshipId");
+
+                    b.HasIndex("MentorId");
+
+                    b.ToTable("Mentorship");
+                });
+
+            modelBuilder.Entity("MentorshipHub.Api.Models.MentorshipRegistration", b =>
+                {
+                    b.Property<int>("MentorshipRegistrationId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MentorshipRegistrationId"));
+
+                    b.Property<int>("MenteeId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MentorId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MentorshipId")
+                        .HasColumnType("int");
+
+                    b.Property<DateOnly>("RegistrationDate")
+                        .HasColumnType("date");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("MentorshipRegistrationId");
+
+                    b.HasIndex("MenteeId");
+
+                    b.HasIndex("MentorId");
+
+                    b.HasIndex("MentorshipId");
+
+                    b.ToTable("MentorshipRegistration");
+                });
+
+            modelBuilder.Entity("MentorshipHub.Api.Models.Task", b =>
+                {
+                    b.Property<int>("TaskId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TaskId"));
+
+                    b.Property<DateOnly>("CreationTime")
+                        .HasColumnType("date");
+
+                    b.Property<DateOnly>("Deadline")
+                        .HasColumnType("date");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("MenteeId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MentorshipId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("TaskId");
+
+                    b.HasIndex("MenteeId");
+
+                    b.HasIndex("MentorshipId");
+
+                    b.ToTable("Task");
+                });
+
+            modelBuilder.Entity("MentorshipHub.Api.Models.TaskSubmission", b =>
+                {
+                    b.Property<int>("TaskSubmissionId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TaskSubmissionId"));
+
+                    b.Property<DateOnly>("DueDate")
+                        .HasColumnType("date");
+
+                    b.Property<string>("Feedback")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Grade")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MenteeId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Solution")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TaskId")
+                        .HasColumnType("int");
+
+                    b.HasKey("TaskSubmissionId");
+
+                    b.HasIndex("MenteeId");
+
+                    b.HasIndex("TaskId");
+
+                    b.ToTable("TaskSubmission");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -240,6 +501,36 @@ namespace MentorshipHub.Api.Migrations
                     b.ToTable("UserTokens", "security");
                 });
 
+            modelBuilder.Entity("MentorshipHub.Api.Models.Achievement", b =>
+                {
+                    b.HasOne("MentorshipHub.Api.Models.Mentee", "Mentee")
+                        .WithMany("Achievements")
+                        .HasForeignKey("MenteeId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("MentorshipHub.Api.Models.Mentorship", "Mentorship")
+                        .WithMany("Achievements")
+                        .HasForeignKey("MentorshipId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Mentee");
+
+                    b.Navigation("Mentorship");
+                });
+
+            modelBuilder.Entity("MentorshipHub.Api.Models.Admin", b =>
+                {
+                    b.HasOne("MentorshipHub.Api.Models.AppUser", "AppUser")
+                        .WithOne("Admin")
+                        .HasForeignKey("MentorshipHub.Api.Models.Admin", "AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+                });
+
             modelBuilder.Entity("MentorshipHub.Api.Models.AppUser", b =>
                 {
                     b.OwnsMany("MentorshipHub.Api.DTOHelpers.RefreshToken", "RefreshTokens", b1 =>
@@ -275,6 +566,100 @@ namespace MentorshipHub.Api.Migrations
                         });
 
                     b.Navigation("RefreshTokens");
+                });
+
+            modelBuilder.Entity("MentorshipHub.Api.Models.Mentee", b =>
+                {
+                    b.HasOne("MentorshipHub.Api.Models.AppUser", "AppUser")
+                        .WithOne("Mentee")
+                        .HasForeignKey("MentorshipHub.Api.Models.Mentee", "AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+                });
+
+            modelBuilder.Entity("MentorshipHub.Api.Models.Mentor", b =>
+                {
+                    b.HasOne("MentorshipHub.Api.Models.AppUser", "AppUser")
+                        .WithOne("Mentor")
+                        .HasForeignKey("MentorshipHub.Api.Models.Mentor", "AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+                });
+
+            modelBuilder.Entity("MentorshipHub.Api.Models.Mentorship", b =>
+                {
+                    b.HasOne("MentorshipHub.Api.Models.Mentor", "Mentor")
+                        .WithMany("Mentorships")
+                        .HasForeignKey("MentorId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Mentor");
+                });
+
+            modelBuilder.Entity("MentorshipHub.Api.Models.MentorshipRegistration", b =>
+                {
+                    b.HasOne("MentorshipHub.Api.Models.Mentee", "Mentee")
+                        .WithMany("MentorshipRegistrations")
+                        .HasForeignKey("MenteeId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("MentorshipHub.Api.Models.Mentor", "Mentor")
+                        .WithMany("MentorshipRegistrations")
+                        .HasForeignKey("MentorId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("MentorshipHub.Api.Models.Mentorship", "Mentorship")
+                        .WithMany("MentorshipRegistrations")
+                        .HasForeignKey("MentorshipId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Mentee");
+
+                    b.Navigation("Mentor");
+
+                    b.Navigation("Mentorship");
+                });
+
+            modelBuilder.Entity("MentorshipHub.Api.Models.Task", b =>
+                {
+                    b.HasOne("MentorshipHub.Api.Models.Mentee", null)
+                        .WithMany("Tasks")
+                        .HasForeignKey("MenteeId");
+
+                    b.HasOne("MentorshipHub.Api.Models.Mentorship", "Mentorship")
+                        .WithMany("Tasks")
+                        .HasForeignKey("MentorshipId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Mentorship");
+                });
+
+            modelBuilder.Entity("MentorshipHub.Api.Models.TaskSubmission", b =>
+                {
+                    b.HasOne("MentorshipHub.Api.Models.Mentee", "Mentee")
+                        .WithMany("TaskSubmissions")
+                        .HasForeignKey("MenteeId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("MentorshipHub.Api.Models.Task", "Task")
+                        .WithMany("TaskSubmissions")
+                        .HasForeignKey("TaskId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Mentee");
+
+                    b.Navigation("Task");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -326,6 +711,50 @@ namespace MentorshipHub.Api.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("MentorshipHub.Api.Models.AppUser", b =>
+                {
+                    b.Navigation("Admin")
+                        .IsRequired();
+
+                    b.Navigation("Mentee")
+                        .IsRequired();
+
+                    b.Navigation("Mentor")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("MentorshipHub.Api.Models.Mentee", b =>
+                {
+                    b.Navigation("Achievements");
+
+                    b.Navigation("MentorshipRegistrations");
+
+                    b.Navigation("TaskSubmissions");
+
+                    b.Navigation("Tasks");
+                });
+
+            modelBuilder.Entity("MentorshipHub.Api.Models.Mentor", b =>
+                {
+                    b.Navigation("MentorshipRegistrations");
+
+                    b.Navigation("Mentorships");
+                });
+
+            modelBuilder.Entity("MentorshipHub.Api.Models.Mentorship", b =>
+                {
+                    b.Navigation("Achievements");
+
+                    b.Navigation("MentorshipRegistrations");
+
+                    b.Navigation("Tasks");
+                });
+
+            modelBuilder.Entity("MentorshipHub.Api.Models.Task", b =>
+                {
+                    b.Navigation("TaskSubmissions");
                 });
 #pragma warning restore 612, 618
         }

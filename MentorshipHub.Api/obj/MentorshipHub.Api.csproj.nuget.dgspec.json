@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Codes\\Visual_Studio\\MentorshipHub.Api\\MentorshipHub.Api\\MentorshipHub.Api.csproj": {}
+    "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\MentorshipHub.Api.csproj": {}
   },
   "projects": {
-    "D:\\Codes\\Visual_Studio\\MentorshipHub.Api\\MentorshipHub.Api\\MentorshipHub.Api.csproj": {
+    "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\MentorshipHub.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Codes\\Visual_Studio\\MentorshipHub.Api\\MentorshipHub.Api\\MentorshipHub.Api.csproj",
+        "projectUniqueName": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\MentorshipHub.Api.csproj",
         "projectName": "MentorshipHub.Api",
-        "projectPath": "D:\\Codes\\Visual_Studio\\MentorshipHub.Api\\MentorshipHub.Api\\MentorshipHub.Api.csproj",
+        "projectPath": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\MentorshipHub.Api.csproj",
         "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
-        "outputPath": "D:\\Codes\\Visual_Studio\\MentorshipHub.Api\\MentorshipHub.Api\\obj\\",
+        "outputPath": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
