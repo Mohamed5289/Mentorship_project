@@ -50,7 +50,7 @@ namespace MentorshipHub.Api.Migrations
 
                     b.HasIndex("MentorshipId");
 
-                    b.ToTable("Achievement");
+                    b.ToTable("Achievement", (string)null);
                 });
 
             modelBuilder.Entity("MentorshipHub.Api.Models.Admin", b =>
@@ -74,7 +74,7 @@ namespace MentorshipHub.Api.Migrations
                     b.HasIndex("AppUserId")
                         .IsUnique();
 
-                    b.ToTable("Admin");
+                    b.ToTable("Admin", (string)null);
                 });
 
             modelBuilder.Entity("MentorshipHub.Api.Models.AppUser", b =>
@@ -189,7 +189,7 @@ namespace MentorshipHub.Api.Migrations
                     b.HasIndex("AppUserId")
                         .IsUnique();
 
-                    b.ToTable("Mentee");
+                    b.ToTable("Mentee", (string)null);
                 });
 
             modelBuilder.Entity("MentorshipHub.Api.Models.Mentor", b =>
@@ -213,7 +213,7 @@ namespace MentorshipHub.Api.Migrations
                     b.HasIndex("AppUserId")
                         .IsUnique();
 
-                    b.ToTable("Mentor");
+                    b.ToTable("Mentor", (string)null);
                 });
 
             modelBuilder.Entity("MentorshipHub.Api.Models.Mentorship", b =>
@@ -252,7 +252,7 @@ namespace MentorshipHub.Api.Migrations
 
                     b.HasIndex("MentorId");
 
-                    b.ToTable("Mentorship");
+                    b.ToTable("Mentorship", (string)null);
                 });
 
             modelBuilder.Entity("MentorshipHub.Api.Models.MentorshipRegistration", b =>
@@ -287,7 +287,7 @@ namespace MentorshipHub.Api.Migrations
 
                     b.HasIndex("MentorshipId");
 
-                    b.ToTable("MentorshipRegistration");
+                    b.ToTable("MentorshipRegistration", (string)null);
                 });
 
             modelBuilder.Entity("MentorshipHub.Api.Models.Task", b =>
@@ -324,7 +324,7 @@ namespace MentorshipHub.Api.Migrations
 
                     b.HasIndex("MentorshipId");
 
-                    b.ToTable("Task");
+                    b.ToTable("Task", (string)null);
                 });
 
             modelBuilder.Entity("MentorshipHub.Api.Models.TaskSubmission", b =>
@@ -365,7 +365,7 @@ namespace MentorshipHub.Api.Migrations
 
                     b.HasIndex("TaskId");
 
-                    b.ToTable("TaskSubmission");
+                    b.ToTable("TaskSubmission", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -533,7 +533,7 @@ namespace MentorshipHub.Api.Migrations
 
             modelBuilder.Entity("MentorshipHub.Api.Models.AppUser", b =>
                 {
-                    b.OwnsMany("MentorshipHub.Api.DTOHelpers.RefreshToken", "RefreshTokens", b1 =>
+                    b.OwnsMany("MentorshipHub.Api.Models.AppUser.RefreshTokens#MentorshipHub.Api.DTOHelpers.RefreshToken", "RefreshTokens", b1 =>
                         {
                             b1.Property<string>("AppUserId")
                                 .HasColumnType("nvarchar(450)");
