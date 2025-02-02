@@ -1,6 +1,6 @@
 ﻿using MentorshipHub.Api.ConfigurationToFile;
-using MentorshipHub.Api.DTOHelpers;
-using MentorshipHub.Api.IServices;
+using MentorshipHub.Core.DTOHelpers;
+using MentorshipHub.Core.IServices;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;

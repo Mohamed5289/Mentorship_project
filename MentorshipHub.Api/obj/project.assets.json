@@ -1684,6 +1684,43 @@
             "rid": "win"
           }
         }
+      },
+      "MentorshipHub.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.12",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.12",
+          "Microsoft.EntityFrameworkCore": "8.0.12",
+          "Microsoft.EntityFrameworkCore.Proxies": "8.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.12",
+          "Swashbuckle.AspNetCore": "6.6.2"
+        },
+        "compile": {
+          "bin/placeholder/MentorshipHub.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MentorshipHub.Core.dll": {}
+        }
+      },
+      "MentorshipHub.EF/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "MentorshipHub.Core": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.12",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.12",
+          "Microsoft.EntityFrameworkCore": "8.0.12",
+          "Microsoft.EntityFrameworkCore.Proxies": "8.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.12",
+          "Swashbuckle.AspNetCore": "6.6.2"
+        },
+        "compile": {
+          "bin/placeholder/MentorshipHub.EF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MentorshipHub.EF.dll": {}
+        }
       }
     }
   },
@@ -4452,10 +4489,22 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "MentorshipHub.Core/1.0.0": {
+      "type": "project",
+      "path": "../MentorshipHub.Core/MentorshipHub.Core.csproj",
+      "msbuildProject": "../MentorshipHub.Core/MentorshipHub.Core.csproj"
+    },
+    "MentorshipHub.EF/1.0.0": {
+      "type": "project",
+      "path": "../MentorshipHub.EF/MentorshipHub.EF.csproj",
+      "msbuildProject": "../MentorshipHub.EF/MentorshipHub.EF.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "MentorshipHub.Core >= 1.0.0",
+      "MentorshipHub.EF >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.12",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.12",
       "Microsoft.EntityFrameworkCore >= 8.0.12",
@@ -4496,7 +4545,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\GitHub\\Mentorship_project\\MentorshipHub.Core\\MentorshipHub.Core.csproj": {
+              "projectPath": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Core\\MentorshipHub.Core.csproj"
+            },
+            "D:\\GitHub\\Mentorship_project\\MentorshipHub.EF\\MentorshipHub.EF.csproj": {
+              "projectPath": "D:\\GitHub\\Mentorship_project\\MentorshipHub.EF\\MentorshipHub.EF.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

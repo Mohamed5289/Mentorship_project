@@ -1,0 +1,15 @@
+D:\GitHub\Mentorship_project\MentorshipHub.Core\bin\Debug\net8.0\MentorshipHub.Core.deps.json
+D:\GitHub\Mentorship_project\MentorshipHub.Core\bin\Debug\net8.0\MentorshipHub.Core.runtimeconfig.json
+D:\GitHub\Mentorship_project\MentorshipHub.Core\bin\Debug\net8.0\MentorshipHub.Core.dll
+D:\GitHub\Mentorship_project\MentorshipHub.Core\bin\Debug\net8.0\MentorshipHub.Core.pdb
+D:\GitHub\Mentorship_project\MentorshipHub.Core\obj\Debug\net8.0\MentorshipHub.Core.csproj.AssemblyReference.cache
+D:\GitHub\Mentorship_project\MentorshipHub.Core\obj\Debug\net8.0\MentorshipHub.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Mentorship_project\MentorshipHub.Core\obj\Debug\net8.0\MentorshipHub.Core.AssemblyInfoInputs.cache
+D:\GitHub\Mentorship_project\MentorshipHub.Core\obj\Debug\net8.0\MentorshipHub.Core.AssemblyInfo.cs
+D:\GitHub\Mentorship_project\MentorshipHub.Core\obj\Debug\net8.0\MentorshipHub.Core.csproj.CoreCompileInputs.cache
+D:\GitHub\Mentorship_project\MentorshipHub.Core\obj\Debug\net8.0\MentorshipHub.Core.sourcelink.json
+D:\GitHub\Mentorship_project\MentorshipHub.Core\obj\Debug\net8.0\MentorshipHub.Core.dll
+D:\GitHub\Mentorship_project\MentorshipHub.Core\obj\Debug\net8.0\refint\MentorshipHub.Core.dll
+D:\GitHub\Mentorship_project\MentorshipHub.Core\obj\Debug\net8.0\MentorshipHub.Core.pdb
+D:\GitHub\Mentorship_project\MentorshipHub.Core\obj\Debug\net8.0\MentorshipHub.Core.genruntimeconfig.cache
+D:\GitHub\Mentorship_project\MentorshipHub.Core\obj\Debug\net8.0\ref\MentorshipHub.Core.dll

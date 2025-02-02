@@ -5,26 +5,39 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/UploadTask": {
+    "/api/Mentee/sendTaskSolution": {
       "post": {
         "tags": [
-          "UploadTask"
+          "Mentee"
         ],
-        "operationId": "UploadTask",
         "requestBody": {
           "content": {
             "multipart/form-data": {
               "schema": {
                 "type": "object",
                 "properties": {
-                  "file": {
+                  "TaskId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "MenteeId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "File": {
                     "type": "string",
                     "format": "binary"
                   }
                 }
               },
               "encoding": {
-                "file": {
+                "TaskId": {
+                  "style": "form"
+                },
+                "MenteeId": {
+                  "style": "form"
+                },
+                "File": {
                   "style": "form"
                 }
               }
@@ -33,24 +46,155 @@
         },
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/UploadDto"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/UploadDto"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/UploadDto"
-                }
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/mentor/mentorshipsById": {
+      "get": {
+        "tags": [
+          "Mentor"
+        ],
+        "parameters": [
+          {
+            "name": "mentorId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/mentor/add-mentee": {
+      "post": {
+        "tags": [
+          "Mentor"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOAddMentee"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOAddMentee"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOAddMentee"
               }
             }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/mentor/add-task": {
+      "post": {
+        "tags": [
+          "Mentor"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOAddTask"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOAddTask"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOAddTask"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/mentor/mentees": {
+      "get": {
+        "tags": [
+          "Mentor"
+        ],
+        "parameters": [
+          {
+            "name": "mentorshipTitle",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/registrationInMentorship": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTORegistrationInMentorship"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTORegistrationInMentorship"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTORegistrationInMentorship"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/mentorships": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       }
@@ -168,6 +312,55 @@
   },
   "components": {
     "schemas": {
+      "DTOAddMentee": {
+        "type": "object",
+        "properties": {
+          "mentorshipTitle": {
+            "type": "string",
+            "nullable": true
+          },
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "succeed": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DTOAddTask": {
+        "type": "object",
+        "properties": {
+          "mentorshipTitle": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "deadline": {
+            "type": "string",
+            "format": "date"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DTORegistrationInMentorship": {
+        "type": "object",
+        "properties": {
+          "mentorshipId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "LoginModel": {
         "type": "object",
         "properties": {
@@ -176,23 +369,6 @@
             "nullable": true
           },
           "password": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "UploadDto": {
-        "type": "object",
-        "properties": {
-          "isSuccess": {
-            "type": "boolean"
-          },
-          "message": {
-            "type": "string",
-            "nullable": true
-          },
-          "url": {
             "type": "string",
             "nullable": true
           }

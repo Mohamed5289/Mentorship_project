@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MentorshipHub.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6cb13d53161c018b9bdc65060a69beb45b56174")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea4af3d26768cd4d8511be5fe72b64aa75c17c6e")]
 [assembly: System.Reflection.AssemblyProductAttribute("MentorshipHub.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MentorshipHub.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

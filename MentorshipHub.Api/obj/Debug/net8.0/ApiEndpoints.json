@@ -1,30 +1,119 @@
 [
   {
-    "ContainingType": "MentorshipHub.Api.Controllers.UploadTaskController",
-    "Method": "UploadTask",
-    "RelativePath": "api/UploadTask",
+    "ContainingType": "MentorshipHub.Api.Controllers.MenteeController",
+    "Method": "SendTaskSolution",
+    "RelativePath": "api/Mentee/sendTaskSolution",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "file",
+        "Name": "TaskId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MenteeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "File",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
       }
     ],
-    "ReturnTypes": [
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorshipHub.Api.Controllers.MentorController",
+    "Method": "AddMentee",
+    "RelativePath": "api/mentor/add-mentee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Type": "MentorshipHub.Api.ConfigurationToFile.UploadDto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "dTOAddMentee",
+        "Type": "MentorshipHub.Core.DTOHelpers.DTOMentorship.DTOAddMentee",
+        "IsRequired": true
       }
     ],
-    "EndpointName": "UploadTask"
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorshipHub.Api.Controllers.MentorController",
+    "Method": "AddTask",
+    "RelativePath": "api/mentor/add-task",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dTOAddTask",
+        "Type": "MentorshipHub.Core.DTOHelpers.DTOMentorship.DTOAddTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorshipHub.Api.Controllers.MentorController",
+    "Method": "MenteesOfMentorship",
+    "RelativePath": "api/mentor/mentees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mentorshipTitle",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorshipHub.Api.Controllers.MentorController",
+    "Method": "GetMentorships",
+    "RelativePath": "api/mentor/mentorshipsById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mentorId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorshipHub.Api.Controllers.UserController",
+    "Method": "Mentorships",
+    "RelativePath": "api/User/mentorships",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MentorshipHub.Api.Controllers.UserController",
+    "Method": "RegistrationInMentorship",
+    "RelativePath": "api/User/registrationInMentorship",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dTORegistrationInMentorship",
+        "Type": "MentorshipHub.Core.DTOHelpers.DTOMentee.DTORegistrationInMentorship",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "MentorshipHub.Api.Controllers.UserAuthenticationController",
@@ -36,7 +125,7 @@
     "Parameters": [
       {
         "Name": "model",
-        "Type": "MentorshipHub.Api.DTOHelpers.LoginModel",
+        "Type": "MentorshipHub.Core.DTOHelpers.LoginModel",
         "IsRequired": true
       }
     ],

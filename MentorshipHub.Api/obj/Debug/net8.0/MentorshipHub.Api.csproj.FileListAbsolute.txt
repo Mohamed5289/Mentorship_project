@@ -309,3 +309,7 @@ D:\GitHub\Mentorship_project\MentorshipHub.Api\obj\Debug\net8.0\refint\Mentorshi
 D:\GitHub\Mentorship_project\MentorshipHub.Api\obj\Debug\net8.0\MentorshipHub.Api.pdb
 D:\GitHub\Mentorship_project\MentorshipHub.Api\obj\Debug\net8.0\MentorshipHub.Api.genruntimeconfig.cache
 D:\GitHub\Mentorship_project\MentorshipHub.Api\obj\Debug\net8.0\ref\MentorshipHub.Api.dll
+D:\GitHub\Mentorship_project\MentorshipHub.Api\bin\Debug\net8.0\MentorshipHub.Core.dll
+D:\GitHub\Mentorship_project\MentorshipHub.Api\bin\Debug\net8.0\MentorshipHub.EF.dll
+D:\GitHub\Mentorship_project\MentorshipHub.Api\bin\Debug\net8.0\MentorshipHub.Core.pdb
+D:\GitHub\Mentorship_project\MentorshipHub.Api\bin\Debug\net8.0\MentorshipHub.EF.pdb

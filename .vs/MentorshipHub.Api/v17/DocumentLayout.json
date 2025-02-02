@@ -3,80 +3,28 @@
   "WorkspaceRootPath": "D:\\GitHub\\Mentorship_project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|d:\\github\\mentorship_project\\mentorshiphub.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|solutionrelative:mentorshiphub.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{06730745-A01D-4C0C-BB9F-99252D48C964}|MentorshipHub.Core\\MentorshipHub.Core.csproj|d:\\github\\mentorship_project\\mentorshiphub.core\\dtohelpers\\dtomentorship\\dtoaddmentee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06730745-A01D-4C0C-BB9F-99252D48C964}|MentorshipHub.Core\\MentorshipHub.Core.csproj|solutionrelative:mentorshiphub.core\\dtohelpers\\dtomentorship\\dtoaddmentee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|d:\\github\\mentorship_project\\mentorshiphub.api\\migrations\\20250201112137_createtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|solutionrelative:mentorshiphub.api\\migrations\\20250201112137_createtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A111159F-30F1-408F-837F-35A3C04ECE9D}|MentorshipHub.EF\\MentorshipHub.EF.csproj|d:\\github\\mentorship_project\\mentorshiphub.ef\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A111159F-30F1-408F-837F-35A3C04ECE9D}|MentorshipHub.EF\\MentorshipHub.EF.csproj|solutionrelative:mentorshiphub.ef\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|d:\\github\\mentorship_project\\mentorshiphub.api\\data\\configurationmodels\\tasksubmissionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|solutionrelative:mentorshiphub.api\\data\\configurationmodels\\tasksubmissionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|d:\\github\\mentorship_project\\mentorshiphub.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|solutionrelative:mentorshiphub.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|d:\\github\\mentorship_project\\mentorshiphub.api\\data\\configurationmodels\\taskconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|solutionrelative:mentorshiphub.api\\data\\configurationmodels\\taskconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_R5P03I4_SQL2024/MentorshipHub/sa/SqlTable/dbo.Mentorships.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|d:\\github\\mentorship_project\\mentorshiphub.api\\data\\configurationmodels\\mentorshipregistrationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|solutionrelative:mentorshiphub.api\\data\\configurationmodels\\mentorshipregistrationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_R5P03I4_SQL2024/MentorshipHub/sa/SqlTable/dbo.MentorshipRegistrations.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|d:\\github\\mentorship_project\\mentorshiphub.api\\data\\configurationmodels\\mentorshipconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|solutionrelative:mentorshiphub.api\\data\\configurationmodels\\mentorshipconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_R5P03I4_SQL2024/MentorshipHub/sa/SqlTable/dbo.Mentors.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|d:\\github\\mentorship_project\\mentorshiphub.api\\data\\configurationmodels\\mentorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|solutionrelative:mentorshiphub.api\\data\\configurationmodels\\mentorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|d:\\github\\mentorship_project\\mentorshiphub.api\\data\\configurationmodels\\menteeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|solutionrelative:mentorshiphub.api\\data\\configurationmodels\\menteeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|d:\\github\\mentorship_project\\mentorshiphub.api\\data\\configurationmodels\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|solutionrelative:mentorshiphub.api\\data\\configurationmodels\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|d:\\github\\mentorship_project\\mentorshiphub.api\\data\\configurationmodels\\achievementconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|solutionrelative:mentorshiphub.api\\data\\configurationmodels\\achievementconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Migrations\\20250201105404_Tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MentorshipHub.Api\\Migrations\\20250201105404_Tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|d:\\github\\mentorship_project\\mentorshiphub.api\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|solutionrelative:mentorshiphub.api\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|d:\\github\\mentorship_project\\mentorshiphub.api\\models\\mentorship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|solutionrelative:mentorshiphub.api\\models\\mentorship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|d:\\github\\mentorship_project\\mentorshiphub.api\\models\\mentor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|solutionrelative:mentorshiphub.api\\models\\mentor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|d:\\github\\mentorship_project\\mentorshiphub.api\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|solutionrelative:mentorshiphub.api\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|d:\\github\\mentorship_project\\mentorshiphub.api\\models\\mentee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|solutionrelative:mentorshiphub.api\\models\\mentee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|d:\\github\\mentorship_project\\mentorshiphub.api\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|solutionrelative:mentorshiphub.api\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|d:\\github\\mentorship_project\\mentorshiphub.api\\models\\tasksubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|solutionrelative:mentorshiphub.api\\models\\tasksubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|d:\\github\\mentorship_project\\mentorshiphub.api\\models\\mentorshipregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D10FC685-8F9D-40C9-ABD0-6350742DF25F}|MentorshipHub.Api\\MentorshipHub.Api.csproj|solutionrelative:mentorshiphub.api\\models\\mentorshipregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_R5P03I4_SQL2024/MentorshipHub/sa/SqlTable/security.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -95,232 +43,81 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "MentorshipHub.Api\\appsettings.json",
-              "ToolTip": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\appsettings.json",
-              "RelativeToolTip": "MentorshipHub.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-01T12:36:44.112Z",
+              "Title": "DTOAddMentee.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Core\\DTOHelpers\\DTOMentorship\\DTOAddMentee.cs",
+              "RelativeDocumentMoniker": "MentorshipHub.Core\\DTOHelpers\\DTOMentorship\\DTOAddMentee.cs",
+              "ToolTip": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Core\\DTOHelpers\\DTOMentorship\\DTOAddMentee.cs",
+              "RelativeToolTip": "MentorshipHub.Core\\DTOHelpers\\DTOMentorship\\DTOAddMentee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T19:32:12.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MentorshipHub.Api\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MentorshipHub.Api\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAMAAAAAKjMzMzMLwBgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T19:28:10.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.MentorshipRegistrations [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_R5P03I4_SQL2024/MentorshipHub/sa/SqlTable/dbo.MentorshipRegistrations.sql",
+              "ToolTip": "dbo.MentorshipRegistrations [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-02T19:25:34.66Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "20250201112137_CreateTables.cs",
-              "DocumentMoniker": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Migrations\\20250201112137_CreateTables.cs",
-              "RelativeDocumentMoniker": "MentorshipHub.Api\\Migrations\\20250201112137_CreateTables.cs",
-              "ToolTip": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Migrations\\20250201112137_CreateTables.cs",
-              "RelativeToolTip": "MentorshipHub.Api\\Migrations\\20250201112137_CreateTables.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAfAAAAAAAAAA==",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mentorship_project\\MentorshipHub.EF\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "MentorshipHub.EF\\Services\\UserService.cs",
+              "ToolTip": "D:\\GitHub\\Mentorship_project\\MentorshipHub.EF\\Services\\UserService.cs",
+              "RelativeToolTip": "MentorshipHub.EF\\Services\\UserService.cs",
+              "ViewState": "AgIAACUAAADAmJmZmZkjwD4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T11:21:37.218Z",
+              "WhenOpened": "2025-02-02T19:04:52.572Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TaskConfiguration.cs",
-              "DocumentMoniker": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Data\\ConfigurationModels\\TaskConfiguration.cs",
-              "RelativeDocumentMoniker": "MentorshipHub.Api\\Data\\ConfigurationModels\\TaskConfiguration.cs",
-              "ToolTip": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Data\\ConfigurationModels\\TaskConfiguration.cs",
-              "RelativeToolTip": "MentorshipHub.Api\\Data\\ConfigurationModels\\TaskConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAACIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T11:20:14.152Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MentorshipRegistrationConfiguration.cs",
-              "DocumentMoniker": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Data\\ConfigurationModels\\MentorshipRegistrationConfiguration.cs",
-              "RelativeDocumentMoniker": "MentorshipHub.Api\\Data\\ConfigurationModels\\MentorshipRegistrationConfiguration.cs",
-              "ToolTip": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Data\\ConfigurationModels\\MentorshipRegistrationConfiguration.cs",
-              "RelativeToolTip": "MentorshipHub.Api\\Data\\ConfigurationModels\\MentorshipRegistrationConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAACUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T11:20:03.222Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MentorConfiguration.cs",
-              "DocumentMoniker": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Data\\ConfigurationModels\\MentorConfiguration.cs",
-              "RelativeDocumentMoniker": "MentorshipHub.Api\\Data\\ConfigurationModels\\MentorConfiguration.cs",
-              "ToolTip": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Data\\ConfigurationModels\\MentorConfiguration.cs",
-              "RelativeToolTip": "MentorshipHub.Api\\Data\\ConfigurationModels\\MentorConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAACIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T11:19:05.585Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20250201105404_Tables.cs",
-              "DocumentMoniker": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Migrations\\20250201105404_Tables.cs",
-              "RelativeDocumentMoniker": "MentorshipHub.Api\\Migrations\\20250201105404_Tables.cs",
-              "ToolTip": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Migrations\\20250201105404_Tables.cs",
-              "RelativeToolTip": "MentorshipHub.Api\\Migrations\\20250201105404_Tables.cs",
-              "ViewState": "AgIAAIIBAAAAnpmZmdkowIcBAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T10:54:04.509Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TaskSubmissionConfiguration.cs",
-              "DocumentMoniker": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Data\\ConfigurationModels\\TaskSubmissionConfiguration.cs",
-              "RelativeDocumentMoniker": "MentorshipHub.Api\\Data\\ConfigurationModels\\TaskSubmissionConfiguration.cs",
-              "ToolTip": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Data\\ConfigurationModels\\TaskSubmissionConfiguration.cs",
-              "RelativeToolTip": "MentorshipHub.Api\\Data\\ConfigurationModels\\TaskSubmissionConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T09:49:47.313Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AchievementConfiguration.cs",
-              "DocumentMoniker": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Data\\ConfigurationModels\\AchievementConfiguration.cs",
-              "RelativeDocumentMoniker": "MentorshipHub.Api\\Data\\ConfigurationModels\\AchievementConfiguration.cs",
-              "ToolTip": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Data\\ConfigurationModels\\AchievementConfiguration.cs",
-              "RelativeToolTip": "MentorshipHub.Api\\Data\\ConfigurationModels\\AchievementConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAACKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T09:28:17.686Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AppUserConfiguration.cs",
-              "DocumentMoniker": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Data\\ConfigurationModels\\AppUserConfiguration.cs",
-              "RelativeDocumentMoniker": "MentorshipHub.Api\\Data\\ConfigurationModels\\AppUserConfiguration.cs",
-              "ToolTip": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Data\\ConfigurationModels\\AppUserConfiguration.cs",
-              "RelativeToolTip": "MentorshipHub.Api\\Data\\ConfigurationModels\\AppUserConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T09:44:57.079Z"
+              "Title": "dbo.Mentorships [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_R5P03I4_SQL2024/MentorshipHub/sa/SqlTable/dbo.Mentorships.sql",
+              "ToolTip": "dbo.Mentorships [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-02T18:59:20.126Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "MentorshipConfiguration.cs",
-              "DocumentMoniker": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Data\\ConfigurationModels\\MentorshipConfiguration.cs",
-              "RelativeDocumentMoniker": "MentorshipHub.Api\\Data\\ConfigurationModels\\MentorshipConfiguration.cs",
-              "ToolTip": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Data\\ConfigurationModels\\MentorshipConfiguration.cs",
-              "RelativeToolTip": "MentorshipHub.Api\\Data\\ConfigurationModels\\MentorshipConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAACIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T09:31:29.336Z"
+              "Title": "dbo.Mentors [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_R5P03I4_SQL2024/MentorshipHub/sa/SqlTable/dbo.Mentors.sql",
+              "ToolTip": "dbo.Mentors [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-02T18:58:51.933Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Models\\Admin.cs",
-              "RelativeDocumentMoniker": "MentorshipHub.Api\\Models\\Admin.cs",
-              "ToolTip": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Models\\Admin.cs",
-              "RelativeToolTip": "MentorshipHub.Api\\Models\\Admin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T10:53:47.16Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Mentor.cs",
-              "DocumentMoniker": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Models\\Mentor.cs",
-              "RelativeDocumentMoniker": "MentorshipHub.Api\\Models\\Mentor.cs",
-              "ToolTip": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Models\\Mentor.cs",
-              "RelativeToolTip": "MentorshipHub.Api\\Models\\Mentor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T10:53:25.371Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MenteeConfiguration.cs",
-              "DocumentMoniker": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Data\\ConfigurationModels\\MenteeConfiguration.cs",
-              "RelativeDocumentMoniker": "MentorshipHub.Api\\Data\\ConfigurationModels\\MenteeConfiguration.cs",
-              "ToolTip": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Data\\ConfigurationModels\\MenteeConfiguration.cs",
-              "RelativeToolTip": "MentorshipHub.Api\\Data\\ConfigurationModels\\MenteeConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T09:44:49.102Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Task.cs",
-              "DocumentMoniker": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Models\\Task.cs",
-              "RelativeDocumentMoniker": "MentorshipHub.Api\\Models\\Task.cs",
-              "ToolTip": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Models\\Task.cs",
-              "RelativeToolTip": "MentorshipHub.Api\\Models\\Task.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T09:58:33.57Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Mentee.cs",
-              "DocumentMoniker": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Models\\Mentee.cs",
-              "RelativeDocumentMoniker": "MentorshipHub.Api\\Models\\Mentee.cs",
-              "ToolTip": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Models\\Mentee.cs",
-              "RelativeToolTip": "MentorshipHub.Api\\Models\\Mentee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T10:15:51.669Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Models\\AppUser.cs",
-              "RelativeDocumentMoniker": "MentorshipHub.Api\\Models\\AppUser.cs",
-              "ToolTip": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Models\\AppUser.cs",
-              "RelativeToolTip": "MentorshipHub.Api\\Models\\AppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T10:51:23.358Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Mentorship.cs",
-              "DocumentMoniker": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Models\\Mentorship.cs",
-              "RelativeDocumentMoniker": "MentorshipHub.Api\\Models\\Mentorship.cs",
-              "ToolTip": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Models\\Mentorship.cs",
-              "RelativeToolTip": "MentorshipHub.Api\\Models\\Mentorship.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T09:43:09.147Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "TaskSubmission.cs",
-              "DocumentMoniker": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Models\\TaskSubmission.cs",
-              "RelativeDocumentMoniker": "MentorshipHub.Api\\Models\\TaskSubmission.cs",
-              "ToolTip": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Models\\TaskSubmission.cs",
-              "RelativeToolTip": "MentorshipHub.Api\\Models\\TaskSubmission.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T09:59:32.464Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "MentorshipRegistration.cs",
-              "DocumentMoniker": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Models\\MentorshipRegistration.cs",
-              "RelativeDocumentMoniker": "MentorshipHub.Api\\Models\\MentorshipRegistration.cs",
-              "ToolTip": "D:\\GitHub\\Mentorship_project\\MentorshipHub.Api\\Models\\MentorshipRegistration.cs",
-              "RelativeToolTip": "MentorshipHub.Api\\Models\\MentorshipRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T09:37:33.55Z"
+              "DocumentIndex": 6,
+              "Title": "security.Users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_R5P03I4_SQL2024/MentorshipHub/sa/SqlTable/security.Users.sql",
+              "ToolTip": "security.Users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-02T18:58:40.612Z",
+              "EditorCaption": ""
             }
           ]
         }

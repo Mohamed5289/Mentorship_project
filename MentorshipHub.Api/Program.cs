@@ -1,16 +1,17 @@
 
 using MentorshipHub.Api.ConfigurationToFile;
-using MentorshipHub.Api.Data;
-using MentorshipHub.Api.DTOHelpers;
-using MentorshipHub.Api.IServices;
-using MentorshipHub.Api.Models;
-using MentorshipHub.Api.Services;
+using MentorshipHub.EF.Data;
+using MentorshipHub.Core.DTOHelpers;
+using MentorshipHub.Core.IServices;
+using MentorshipHub.Core.Models;
+using MentorshipHub.EF.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using MentorshipHub.EF.Migrations;
 
 namespace MentorshipHub.Api
 {
@@ -26,7 +27,7 @@ namespace MentorshipHub.Api
 
             builder.Services.AddDbContext<AppIdentityDbContext>(options =>
             {
-                options.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+                options.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),o=> o.MigrationsAssembly(typeof(AppIdentityDbContext).Assembly.FullName));
             });
 
             // Add Identity and Handle Password Policy
@@ -70,6 +71,11 @@ namespace MentorshipHub.Api
                 });
             builder.Services.AddScoped<TokenGenerator>();
             builder.Services.AddScoped<IUserAuthenticationService, UserAuthenticationService>();
+            //builder.Services.AddScoped<IAdminService, AdminService>();
+            //builder.Services.AddScoped<IMenteeService, MenteeService>();
+            builder.Services.AddScoped<IMentorService, MentorService>();
+            builder.Services.AddScoped<IUserService,MentorshipHub.EF.Services.UserService>();
+
 
             // image configuration
             builder.Services.Configure<ImageSettings>(builder.Configuration.GetSection("ImageSettings"));

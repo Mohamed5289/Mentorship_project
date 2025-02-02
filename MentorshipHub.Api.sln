@@ -5,6 +5,10 @@ VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentorshipHub.Api", "MentorshipHub.Api\MentorshipHub.Api.csproj", "{D10FC685-8F9D-40C9-ABD0-6350742DF25F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentorshipHub.EF", "MentorshipHub.EF\MentorshipHub.EF.csproj", "{A111159F-30F1-408F-837F-35A3C04ECE9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentorshipHub.Core", "MentorshipHub.Core\MentorshipHub.Core.csproj", "{06730745-A01D-4C0C-BB9F-99252D48C964}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{D10FC685-8F9D-40C9-ABD0-6350742DF25F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D10FC685-8F9D-40C9-ABD0-6350742DF25F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D10FC685-8F9D-40C9-ABD0-6350742DF25F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A111159F-30F1-408F-837F-35A3C04ECE9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A111159F-30F1-408F-837F-35A3C04ECE9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A111159F-30F1-408F-837F-35A3C04ECE9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A111159F-30F1-408F-837F-35A3C04ECE9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06730745-A01D-4C0C-BB9F-99252D48C964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06730745-A01D-4C0C-BB9F-99252D48C964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06730745-A01D-4C0C-BB9F-99252D48C964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06730745-A01D-4C0C-BB9F-99252D48C964}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
